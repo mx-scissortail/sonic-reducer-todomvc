@@ -9897,7 +9897,7 @@ function updateLocalStorage() {
         title = _todo.title,
         completed = _todo.completed;
 
-    return { id: id, title: title, completed: completed }; // ignore 'editing' status
+    return { id: id, title: title, completed: completed }; // ignore 'editing' status when serializing
   })));
 }
 
