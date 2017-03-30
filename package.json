@@ -1,0 +1,34 @@
+{
+  "name": "sonic-reducer-todomvc",
+  "version": "0.0.1",
+  "description": "A zine + Sonic Reducer TodoMVC implementation",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sonic-reducer": "^0.2.1",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "zine": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.9",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "webpack": "^2.2.0",
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony"
+  },
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "build:production": "webpack --progress --colors --env.production",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j-s-n/sonic-reducer-todomvc.git"
+  },
+  "author": "J. S. Nelson",
+  "license": "MIT"
+}
