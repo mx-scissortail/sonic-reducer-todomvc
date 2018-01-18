@@ -1,4 +1,6 @@
-# zine + Sonic Reducer TodoMVC Example
+# zine + Sonic Reducer TodoMVC Example [Deprecated!]
+
+WARNING: Sonic Reducer has been deprecated, ignore this repository.
 
 This is a TodoMVC implementation intended to illustrate the use of [zine](https://github.com/j-s-n/zine) and [Sonic Reducer](https://github.com/j-s-n/sonic-reducer).
 
